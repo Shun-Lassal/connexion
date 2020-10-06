@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="connexion.css">
+  </head>
+  <body>
+    <div id="container">
+        <header>
+          <div id="header">
+            <a href="connexion.html">Connexion</a>
+            <img src="https://www.pikpng.com/pngl/b/345-3455044_msc-rrq-rrq-logo-png-clipart.png" alt="">
+            <a href="inscription.html">Inscription</a>
+          </div>
+        </header>
+
+        <main>
+          <div id="login">
+            <h1>Inscription</h1>
+            <form class="connexion" action="connexion.html" method="post">
+              <label for="login">Identifiant:</label>
+              <input type="text" name="login" placeholder="ID Login" required>
+              <label for="password">Mot de Passe:</label>
+              <input type="password" name="password" placeholder="********" required>
+              <label for="password2">Confirmer MdP:</label>
+              <input type="password" name="password2" placeholder="********" required>
+              <label for="date">Date de naissance:</label>
+              <input id="date" type="date" name="date" placeholder="" required>
+              <label for="fname">Prénom:</label>
+              <input type="text" name="fname" placeholder="Prénom" required>
+              <label for="lname">Nom:</label>
+              <input type="text" name="lname" placeholder="Nom" required>
+              <label for="email">E-mail:</label>
+              <input type="email" name="email" placeholder="exemple@exemple.com" required>
+              <label for="sexe">Sexe:</label>
+              <input type="radio" name="H" value="homme"required>
+              <label class="radio" for="H">Homme</span>
+              <input type="radio" name="F" value="femme" required>
+              <label class="radio" for="F">Femme</span>
+              <label for="etudes">Niveau d'études</label>
+              <select class="study" name="etudes" required>
+                <option value="rien">Aucun diplôme</option>
+                <option value="cap">Cap</option>
+                <option value="bac">Bac</option>
+                <option value="bac2">Prepa</option>
+                <option value="bac3">BTS/DUT</option>
+                <option value="bac5">Licence</option>
+                <option value="bac6">Bachelor</option>
+                <option value="bac7">Master</option>
+              </select>
+              <label for="number">N° Téléphone</label>
+              <input type="tel" name="number" placeholder="(+33)600000000" maxlength="12" required>
+              <label for="desc">Présentez-vous:</label>
+              <textarea type="text" id="desc" name="desc" placeholder="J'habite à Marseille, j'aime les glaces, etc."></textarea>
+              <span id="">Cochez vos hobbies</span>
+              <div id="checklist">
+                <div id="check1">
+              <label for="choix1">Séries/Films</label>
+              <input type="checkbox" name="choix1" value="seriesfilms">
+              <label for="choix2">Sport</label>
+              <input type="checkbox" name="choix2" value="sport">
+              <label for="choix3">Jeux Vidéos</label>
+              <input type="checkbox" name="choix3" value="jeuxvideos">
+                </div>
+                <div id="check2">
+              <label for="choix4">Lecture</label>
+              <input type="checkbox" name="choix4" value="lecture">
+              <label for="choix5">Sorties</label>
+              <input type="checkbox" name="choix5" value="sorties">
+              <label for="choix6">Musique</label>
+              <input type="checkbox" name="choix6" value="musique">
+                </div>
+            </div>
+              <input id="submit" type="submit" name="confirmer" value="Connexion">
+              <span><a href="connexion.html">Je veux me connecter</a></span>
+              <span><a href="motdepasse.html">Je veux modifier mon mot de passe</a></span>
+            </form>
+          </div>
+        </main>
+
+        <footer>
+
+        </footer>
+    </div>
+  </body>
+</html>

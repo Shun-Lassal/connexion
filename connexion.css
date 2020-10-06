@@ -1,0 +1,149 @@
+body {
+background-color:black;
+}
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@keyframes Test {
+    0%{background-position:50% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:50% 0%}
+}
+
+header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  background-color:black;
+}
+
+div#header {
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  align-items:center;
+  font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+}
+
+img {
+  width:80px;
+  height:50px;
+}
+
+div#header a {
+  text-decoration:none;
+  color:white;
+  font-size:30px;
+}
+
+div#header a:hover {
+  text-decoration:underline;
+  color:grey;
+}
+
+
+main {
+  background: linear-gradient(224deg, #ffffff, #464646, #ffcd19);
+  background-size: 400% 400%;
+  animation: Test 20s ease infinite;
+  padding-top:12%;
+  padding-bottom:12%;
+}
+
+div#login {
+  margin-left:40%;
+  margin-right:40%;
+  padding-top:20px;
+  padding-bottom:20px;
+  border:1px solid black;
+  text-align:center;
+  background-color:white;
+  border-radius:20px;
+}
+
+form {
+  text-align:center;
+}
+
+label {
+  display:block;
+  padding-top:10px;
+  padding-bottom:8px;
+  font-size:20px;
+  font-family: 'Titillium Web', sans-serif;
+
+
+
+}
+
+input {
+  text-align:center;
+  padding-top:10px;
+  padding-bottom:10px;
+  background: linear-gradient(224deg, #ffffff, #464646, #ffcd19);
+  background-size: 400% 400%;
+  animation: Test 20s ease infinite;
+  color:white;
+  border: 1px solid white;
+}
+
+input#date {
+  padding-left:16px;
+  padding-right:16px;
+}
+
+input#submit {
+  display:block;
+  text-align:center;
+  margin-top:10px;
+  margin-left:auto;
+  margin-right: auto;
+  padding-left:20px;
+  padding-right:20px;
+}
+label.radio {
+  display:inline;
+}
+
+textarea#desc {
+  height:100px;
+  padding-left:15px;
+  padding-right:15px;
+}
+
+form span {
+  font-family: 'Titillium Web', sans-serif;
+  display: block;
+  padding:5px;
+}
+
+form span a {
+  text-decoration:none;
+  color:black;
+  font-size:15px;
+
+  color:grey;
+
+}
+
+form span a:hover {
+  text-decoration:underline;
+  color:black;
+}
+
+div#checklist {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+}
+
+div#check1 {
+
+}
+
+div#check2 {
+
+}
